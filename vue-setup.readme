@@ -67,3 +67,11 @@ Vue will finally work when you run this command from the command line:
 Add this line in the *head* section of the page:
 
 `<link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">`
+
+## Seeing changes as you edit
+
+If you are working on your Vue components or CSS files and want to see the changes without having to run the "run dev" command everytime, run this command in the terminal:
+
+`npm run watch`
+
+NPM will then watch for changes and recompile files as necessary.
